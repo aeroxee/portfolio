@@ -2,8 +2,6 @@ import LoadingImage from "@/components/LoadingImage"
 import Man1Image from "@/public/assets/man1.jpg"
 
 export default function About() {
-  const handleImageLoading = () => {}
-
   return (
     <>
       <header className="mt-10">

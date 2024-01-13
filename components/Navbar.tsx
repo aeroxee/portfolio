@@ -100,11 +100,9 @@ export default function Navbar(): JSX.Element {
             <Link
               href="https://github.com/aZ4ziL"
               target="_blank"
-              legacyBehavior
+              className="text-white text-2xl"
             >
-              <button type="button" className="text-white text-2xl">
-                <FontAwesomeIcon icon={faGithub} />
-              </button>
+              <FontAwesomeIcon icon={faGithub} />
             </Link>
           </div>
           {/* Button */}
